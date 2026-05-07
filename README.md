@@ -23,7 +23,7 @@
 
 I originally started this project to document my learning curve. After a brief pause, I am **restarting development in 2025** with a renewed vision: to build a platform that not only displays my work but helps other Sigma Batch learners visualize their own growth path.
 
-## 🌟 Key Features
+## 🌟 Key Features :
 
 This project is built from scratch without frameworks to demonstrate mastery of core web technologies:
 
