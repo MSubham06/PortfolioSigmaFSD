@@ -1,0 +1,83 @@
+1
+1
+2
+2
+1+2
+3
+a=2, b=5, a+b
+7
+a
+2
+b
+5
+a-b
+-3
+b-a
+3
+name = "subham"
+'subham'
+name
+'subham'
+a
+2
+a=3
+3
+a
+3
+a+b
+8
+a+b-a
+5
+typeof a
+
+'number'
+typeof name
+'string'
+age =21
+21
+typeof age
+'number'
+typeof 6.2
+'number'
+typeof "a'
+'string'
+a*b
+15
+x = 0.999999999
+0.999999999
+x = 0.99999999999999999999999999999999999
+1
+a
+3
+b
+5
+a =10
+10
+b =20
+20
+sum = a+b
+30
+sum
+30
+diff = a-b
+-10
+diff
+-10
+prod = a*b
+200
+prod
+200
+div = a/b
+0.5
+div
+0.5
+rem = a%b
+10
+a**b
+100000000000000000000
+2**3
+8
+3%2
+1
+4%2
+0

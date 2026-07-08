@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M7.1</title>
+</head>
+<body>
+    <!-- Table -->
+     <h2>Task 1 :</h2>
+    <table border= black;>
+        <caption>Student Table</caption>
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Subham</td>
+                <td>40</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>40</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+
+    <!-- Advance Table -->
+    <h2>Task 2 :</h2>
+    <table border= black;>
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.17</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.28</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    <!-- Practice Question -->
+    <h2>Practice Question :</h2>
+    <table border=black;>
+        <caption>A test table with merged cells</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Gender</th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+
+    <!-- Form -->
+    <h2>Task 3 :</h2>
+    <form action="/action">
+        <label for="input-text">Enter Text:</label>
+        <input type="text" id="input-text" title="Input your text here" placeholder="Type here..." /><br>
+        Pass : <input type="password" placeholder="Enter password..." /><br>
+        Number : <input type="number" /><br>
+        Time : <input type="time" /><br>
+        Color : <input type="color" /><br>
+        Email : <input type="email" /><br>
+
+        <br><br>
+    <!-- Form -->
+    <h2>Task 4 :</h2>
+        <form action="/action">
+            <label>
+                Username 
+                <input type="text" placeholder="enter username">
+            </label><br>
+            <label>
+                Password 
+                <input type="password" placeholder="enter password">
+            </label>
+        </form>
+
+    </form>
+
+    <!-- Form -->
+    <h2>Task 5 :</h2> 
+    <form action="/action">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter username here.." name="username" /><br>
+        <label for="Password">Password</label>
+        <input type="text" id="Password" placeholder="Enter password here.." name="Password"/><br>
+        <button type="rest">Submit</button>
+    </form>
+
+    <!-- Form -->
+    <h2>Note :</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" placeholder="YT Direct Search..">
+        <button>Search</button>
+    </form><br><br>
+
+
+    <!-- Practice Question -->
+    <h2>Practice Question 8 :</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Search anything from here..">
+        <button style="color: rgb(255, 255, 255); background-color: blue;">Search</button>
+    </form>
+
+    <!-- Form -->
+    <h2>Task 6:</h2>
+    <form action="/action">
+        <input type="checkbox" name="age" id="age" checked>
+        <label for="age">I am 18+</label>
+        <div>
+            <input type="radio" name="fruit" id="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="mango">
+            <label for="mango">Mango</label>
+            <input type="radio" name="fruit" id="banana">
+            <label for="banana">Banana</label>
+            <button type="submit">Submit</button>
+        </div>
+    </form><br><br>
+
+    <!-- Form Dropdown -->
+    <h2>Note :</h2>
+    <form action="/action">
+        Choose your profession
+        <select name="profession" id="profession">
+            <option value="student">Student</option>
+            <option value="dev" selected>Developer</option>
+        </select>
+        <label for="volume">Volume</label>
+        <input type="range" min="0" max="100" name="vol" step="10"><br><br>
+
+        <label for="feedback">Feedback</label><br>
+        <textarea id="feedback" rows="10" cols="50">Please provide your feedback here... </textarea>
+        <button>Submit</button>
+
+    </form><br><br>
+
+
+
+</body>
+</html>
