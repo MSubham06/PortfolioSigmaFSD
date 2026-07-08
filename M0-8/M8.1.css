@@ -1,0 +1,38 @@
+.t1{
+    h2{
+        color: orange;
+    }
+    button{
+        color: white;
+        background-color: blue;
+    }
+    p{
+        background-color: black;
+        color: white;
+    }
+}
+
+.t2{
+    h3{
+        background-color: black;
+        color: #ffffff;
+    }
+    h4{
+        color: #ffff00;
+    }
+    h5{
+        color: #00f;
+    }
+}
+.t3{
+    font-family: League spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+
+}

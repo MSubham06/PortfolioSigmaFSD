@@ -1,0 +1,24 @@
+#Maindiv {
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
+}
+#Sub1 {
+  background-color: red;
+}
+
+#Sub2 {
+  background-color: yellow;
+}
+
+#Sub3 {
+  background-color: green;
+}
+
+.inner{
+  height: 50px;
+  width: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 10px;
+  border-radius: 50%;
+}
