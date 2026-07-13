@@ -19,10 +19,27 @@ body {
   overflow-x: hidden;
 }
 
+.top-fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 140px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    transparent 100%
+  );
+  z-index: 9;
+  pointer-events: none;
+}
+
 /* Navbar */
 .navbar {
   background-color: #111111;
   border: 1px solid rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   width: fit-content;
   max-width: 500px;
@@ -63,9 +80,9 @@ body {
 
 @media (max-width: 400px) {
   .navbar {
-    gap: 0.7rem;
-    padding: 8px 12px;
-    font-size: 0.7rem;
+    gap: 0.9rem;
+    padding: 6px 10px;
+    font-size: 0.65rem;
   }
 }
 

@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="main container1">
       <Loader />
+      <div className="top-fade"></div>
       <Navbar />
       <Home />
       <StatsStrip />
