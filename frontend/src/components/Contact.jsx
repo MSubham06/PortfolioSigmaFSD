@@ -75,20 +75,22 @@ function Contact() {
               )}
             </form>
           )}
-
           <div className="social-row">
-            <a href="https://www.linkedin.com/in/msubham/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-              <i className="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/MSubham06" target="_blank" rel="noreferrer" aria-label="GitHub">
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/irl.subhhh" target="_blank" rel="noreferrer" aria-label="Instagram">
-              <i className="fa-brands fa-instagram"></i>
-            </a>
-            <a href="mailto:youremail@gmail.com" aria-label="Email">
-              <i className="fa-solid fa-envelope"></i>
-            </a>
+            <p className="social-label">Connect with me here!</p>
+            <div className="social-icons">
+              <a href="https://www.linkedin.com/in/msubham/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/MSubham06" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <i className="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/irl.subhhh" target="_blank" rel="noreferrer" aria-label="Instagram">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="mailto:youremail@gmail.com" aria-label="Email">
+                <i className="fa-solid fa-envelope"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div className="contact-pic">

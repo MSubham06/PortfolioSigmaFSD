@@ -1,12 +1,13 @@
 function Footer() {
-    return (
-      <footer className="footer">
-        <div className="footer-inner">
-          <p className="footer-made">Made with 💛 by Subham</p>
-          <p className="footer-copy">© 2026 Rebuilt with React</p>
-        </div>
-      </footer>
-    );
-  }
-  
-  export default Footer;
+  return (
+    <footer className="footer">
+      <div className="footer-inner">
+        <p className="footer-quote">"First, solve the problem. Then, write the code!"</p>
+        <p className="footer-made">Made with 💛 by Subham</p>
+        <p className="footer-copy">© 2026 Rebuilt with React</p>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
